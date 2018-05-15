@@ -28,8 +28,8 @@ This demo implementation of tokens are based on Zeppelin standardToken ERC-20 co
 
 ### Deployment Steps:
 ```
-git clone []
-cd project-name
+git clone https://github.com/imperialsoftech/ico-token-demo
+cd ico-token-demo/
 npm install
 ```
 Create an account at infura.io and update your key with API_KEY_HERE
