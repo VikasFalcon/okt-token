@@ -28,8 +28,8 @@ This demo implementation of tokens are based on Open Zeppelin Standard Token ERC
 
 ### Deployment Steps:
 ```
-git clone []
-cd project-name
+git clone https://github.com/imperialsoftech/ico-token-demo
+cd ico-token-demo/
 npm install
 ```
 Create an account at infura.io and update your key with API_KEY_HERE

@@ -1,0 +1,26 @@
+{
+  "name": "ico-token-demo",
+  "version": "1.0.0",
+  "description": "This demo implementation of tokens are based on Zeppelin standardToken ERC-20 contract. This contract has been futher mixed in to include \"pausable\" and \"ownable\" traits.",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imperialsoftech/ico-token-demo.git"
+  },
+  "keywords": [
+    "Ico",
+    "token"
+  ],
+  "author": "Imperial Softech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imperialsoftech/ico-token-demo/issues"
+  },
+  "homepage": "https://github.com/imperialsoftech/ico-token-demo#readme",
+  "dependencies": {
+    "truffle-hdwallet-provider": "0.0.5"
+  }
+}
