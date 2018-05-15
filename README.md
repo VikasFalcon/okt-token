@@ -1,6 +1,6 @@
 ### Summary:
 
-This demo implementation of tokens are based on Zeppelin standardToken ERC-20 contract. This contract has been futher mixed in to include "pausable" and "ownable" traits.
+This demo implementation of tokens are based on Open Zeppelin Standard Token ERC-20 contract. This contract has been further mixed in to include "pausable" and "ownable" traits.
 
 >Based  Project Used for this demo:
 >https://erc20token.sonnguyen.ws/en/latest/erc20_token/
