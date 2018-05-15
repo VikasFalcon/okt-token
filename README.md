@@ -33,6 +33,38 @@ git clone https://github.com/imperialsoftech/ico-token-demo
 cd ico-token-demo/
 npm install
 ```
+**Update the migrations/2_deploy.contracts.js file**
+```
+const IcoToken = artifacts.require('IcoToken');
+const IcoContract = artifacts.require('IcoContract');
+
+module.exports = function(deployer){
+	deployer.deploy(
+			IcoToken,
+			'OK Token',
+			'OKT',
+			'18',
+			'1.0'
+		).then(() => {
+			return deployer.deploy(
+					IcoContract,
+					'0xab0874cB6........', // put your Rinkeby wallet address here, for link your account to token contract
+					IcoToken.address,
+					'100000000000000000000000000', // 100000000 Token
+				    '1000', // 1 ETH = 1000 Token
+				    '1514764800', // 01/01/2018
+				    '1546214400', // 31/12/2018
+				    '100000000000000000' // 0.1 ETH
+				).then(() => {
+					return IcoToken.deployed().then(function(instance){
+						return instance.setIcoContract(IcoContract.address);	
+					});
+				});
+		});
+};
+
+```
+
 Create an account at infura.io and update your key with API_KEY_HERE
 
 **Update the truffle.js file**
