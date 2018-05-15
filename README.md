@@ -1,6 +1,6 @@
 ### Summary:
 
-This demo implementation of tokens are based on Zeppelin standardToken ERC-20 contract. This contract has been futher mixed in to include "pausable" and "ownable" traits.
+This demo implementation of tokens are based on Open Zeppelin Standard Token ERC-20 contract. This contract has been further mixed in to include "pausable" and "ownable" traits.
 
 >Based  Project Used for this demo:
 >https://erc20token.sonnguyen.ws/en/latest/erc20_token/
@@ -20,9 +20,10 @@ This demo implementation of tokens are based on Zeppelin standardToken ERC-20 co
 
 ### Requirement:
 
-- Nodejs v6.11.4
-- truffle v4.1.8
-- Metamask/Ganache Wallet
+- Nodejs v9.10 or above
+- Truffle v4.1.8 (core: 4.1.8) (http://truffleframework.com/docs/getting_started/installation)
+- Solidity v0.4.23
+- Metamask (https://metamask.io) /Ganache Wallet
 
 > [Please Note : infura.io provider is used for the demo ]
 
