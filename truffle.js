@@ -11,8 +11,8 @@ module.exports =
 		},
     	rinkeby: {
 		    provider: function() {
-		      var mnemonic = 'steel neither fatigue dismiss .............';	
-		      return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/8wTMv9HfDF.........");
+		      var mnemonic = 'steel neither fatigue dismiss repair verb grit expire feature slim mouse flight';	
+		      return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/uFPISivx42a2fNZr88PC");
 		    },
 		    network_id: '4',
 		}  

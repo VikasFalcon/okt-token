@@ -4,8 +4,8 @@ const IcoContract = artifacts.require('IcoContract');
 module.exports = function(deployer){
 	deployer.deploy(
 			IcoToken,
-			'OK Token',
-			'OKT',
+			'OLA Token',
+			'OLAT',
 			'18',
 			'1.0'
 		).then(() => {

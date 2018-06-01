@@ -1,6 +1,6 @@
 ### Summary:
 
-This demo implementation of tokens are based on Open Zeppelin Standard Token ERC-20 contract. This contract has been further mixed in to include "pausable" and "ownable" traits.
+This implementation of tokens are based on Open Zeppelin Standard Token ERC-20 contract. This contract has been further mixed in to include "pausable" and "ownable" traits.
 
 >Based  Project Used for this demo:
 >https://erc20token.sonnguyen.ws/en/latest/erc20_token/
@@ -29,8 +29,8 @@ This demo implementation of tokens are based on Open Zeppelin Standard Token ERC
 
 ### Deployment Steps:
 ```
-git clone https://github.com/imperialsoftech/ico-token-demo
-cd ico-token-demo/
+git clone https://github.com/imperialsoftech/okt-token
+cd okt-token/
 npm install
 ```
 **Update the migrations/2_deploy.contracts.js file**
